@@ -4,20 +4,35 @@
     <title>GDSC Amity University, Noida - Members' Showcase</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/22204dada8.js" crossorigin="anonymous"></script>
+	<link href="DarkMode/css/dark-mode.css" rel="stylesheet"/>
 </head>
 <body>
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">GDSC Amity University, Noida - Members' Showcase</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
+	        <span class="navbar-toggler-icon"></span>
+	    </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-link" href="#About">About</a>
                 <a class="nav-link" href="#Showcase">Members' Showcase</a>
                 <a class="nav-link active" href="https://gdsc.community.dev/amity-university-noida/" target="_blank">GDSC Chapter</a>
                 <a class="nav-link active" href="https://bit.ly/gdsc-amity-discord" target="_blank">Discord Community</a>
+				
+				<!--  Dark Mode  --> 
+                <nav class="navbar-nav ">
+                    <div class ="nav-link">
+                        <div class="d-flex align-items-end">
+                            <div class="custom-control custom-switch" >
+                                <input type="checkbox" class="custom-control-input " id="darkSwitch" />
+                                <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <script src="DarkMode/dark-mode-switch.min.js"></script>
             </div>
         </div>
     </nav>
@@ -44,7 +59,7 @@
                         <a class="fa fa-linkedin" href="https://linkedin.com/in/adityaoberai1" target="_blank"></a>
                         <a class="fa fa-twitter" href="https://twitter.com/adityaoberai1" target="_blank"></a>
                         <a class="fa fa-instagram" href="https://instagram.com/adityaoberai1" target="_blank"></a>
-			<a class="fa fa-github" href="https://github.com/adityaoberai" target="_blank"></a>
+			            <a class="fa fa-github" href="https://github.com/adityaoberai" target="_blank"></a>
                         <a class="fa fa-link" href="https://adityaoberai.live" target="_blank"></a>
                     </h5>
                     <h6>
@@ -132,15 +147,34 @@
                     </p>
                 </div>
             </div>
+		
+	        <div class="card col-md-4 col-xs-12" style="width: 18rem;">
+                <img src="Assets/Khushi Sharma Headshot.JPG" class="card-img-top" alt="Khushi-Sharma">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Khushi Sharma
+                        <a class="fa fa-linkedin" href="https://www.linkedin.com/in/khushisharma-22/" target="_blank"></a>
+                        <a class="fa fa-twitter" href="https://twitter.com/khushiSharma_22" target="_blank"></a>
+                        <a class="fa fa-instagram" href="https://www.instagram.com/_._khushi.sharma_._/" target="_blank"></a>
+			            <a class="fa fa-github" href="https://github.com/KhushiSharma22" target="_blank"></a>
+                    </h5>
+                    <h6>
+                        GDSC Core Team - Amity University, Noida
+                    </h6>
+                    <p class="card-text">
+                        I love communities because it enables you to welcome and help other people in a way one can't as individuals.
+                    </p>
+                </div>
+            </div>
 
         </div>
         <br>
-	<br>
+	    <br>
         <h4 class="display-5" id="Members">Club Members</h4>
 
         <div class="row">
-
-            <!-- Review template begins - DO NOT DELETE -->
+          
+	        <!-- Review template begins - DO NOT DELETE -->
             <div class="card col-md-4 col-xs-12" style="width: 18rem;">
                 <!-- Change source of image to your picture  -->
                 <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" class="card-img-top" alt="Image of person from unsplash.com">
@@ -159,31 +193,56 @@
 						<a class="fa fa-github" href="#" target="_blank"></a>
 						<a class="fa fa-link" href="#" target="_blank"></a>
 					</h5>
+
                     <!-- Your review/experience -->
                     <p class="card-text">This is a sample card template. You can copy the code for this card and use it to share why you love communities here.</p>
                 </div>
             </div>
             <!-- Review template ends. -->
             <!-- Reviews can be added below. -->
-
-            <!-- Tintinkung Profile -->
+            
             <div class="card col-md-4 col-xs-12" style="width: 18rem;">
-                <img src="Assets/dog2.jpg" class="card-img-top" alt="Image of my Doggo">
+                <!-- Change source of image to your picture  -->
+                <img src="https://www.kindpng.com/picc/m/197-1974550_penguin-chat-club-penguin-penguin-sitting-down-hd.png">
                 <div class="card-body">
+                    <!-- Your name -->
                     <h5 class="card-title">
-						Tintinkung
-                        <p>
-                            beginner dev
-                        </p>
-						<a class="fa fa-twitter" href="https://twitter.com/tintinkungs" target="_blank"></a>
-						<a class="fa fa-github" href="https://github.com/tintinkung" target="_blank"></a>
-					</h5>
-                    <p class="card-text">Hi im beginner developer seeking web development experience.</p>
+                        Zainab Shah
+                        <!-- 
+                            Your socials 
+                            Make sure to replace # with your link in href
+                            If you don't have or want to add a handle, remove the entire <a> tag
+                        -->
+                        <a class="fa fa-linkedin" href="https://www.linkedin.com/in/zainab-shah-884950222/" target="_blank"></a>
+                        <a class="fa fa-github" href="https://github.com/Tarctic/" target="_blank"></a>
+                    </h5>
+                    <!-- Your review/experience -->
+                    <p class="card-text">I think communities are a great way to learn new things and create projects. They make the learning process easier and more fun!</p>
+                </div>
+              
+            </div>
+        
+            <div class="card col-md-4 col-xs-12" style="width: 18rem;">
+                <!-- Change source of image to your picture  -->
+                <img src="https://avatars.githubusercontent.com/u/24203959?v=4">
+                <div class="card-body">
+                    <!-- Your name -->
+                    <h5 class="card-title">
+                        Himank Varshney
+                        <!-- 
+                            Your socials 
+                            Make sure to replace # with your link in href
+                            If you don't have or want to add a handle, remove the entire <a> tag
+                        -->
+                        <a class="fa fa-linkedin" href="https://linkedin.com/in/VARhimank" target="_blank"></a>
+                        <a class="fa fa-instagram" href="https://www.instagram.com/var.himank/" target="_blank"></a>
+                        <a class="fa fa-github" href="https://github.com/VARhimank" target="_blank"></a>
+                        <a class="fa fa-link" href="https://himank-portfolio.netlify.app/" target="_blank"></a>
+                    </h5>
+                    <!-- Your review/experience -->
+                    <p class="card-text">I enjoy being in tech communities and learning new things together!</p>
                 </div>
             </div>
-            <!-- Review template ends. -->
-            <!-- Reviews can be added below. -->
-
 
         </div>
         
