@@ -25,6 +25,10 @@
     background-color: #000 !important;
   }
 
+  [data-theme="dark"] .card {
+    background-color: rgb(48, 48, 48) !important;
+  }
+  
   [data-theme="dark"] .bg-white {
     background-color: #000 !important;
   }
